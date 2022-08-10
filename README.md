@@ -4,9 +4,9 @@ This template made with Reactjs
 
 ## Some Photos Tell You How The app architecture Was made and the App Structure
 
-!(MyReads)[https://i.ibb.co/NW2tPkz/MyReads.png]
-!(Main Route Architecture)[https://i.ibb.co/5448L90/Main-Route-Architecture.png]
-!(Search Route Architecture)[https://i.ibb.co/YNsx9yJ/Search-Route-Architecture.png]
+![MyReads](https://i.ibb.co/NW2tPkz/MyReads.png)
+![Main Route Architecture](https://i.ibb.co/5448L90/Main-Route-Architecture.png)
+![Search Route Architecture](https://i.ibb.co/YNsx9yJ/Search-Route-Architecture.png)
 
 
 #### Resources_ROUTER_SUPPORT
