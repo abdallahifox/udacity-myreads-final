@@ -37,11 +37,11 @@ function App() {
   }, []);
   return (
     <Layout>
-      {/* TODO: Navigation Bar */}
+      {/*  Navigation Bar */}
       <Navigation />
 
-      {/* TODO: All The Routes Will Find Here */}
-      {/* TODO: Container Is Helper Class To Make A Nice View In Every Screen Resuliotion */}
+      {/*  All The Routes Will Find Here */}
+      {/*  Container Is Helper Class To Make A Nice View In Every Screen Resuliotion */}
       <div className="container">
         <Routes>
           <Route
