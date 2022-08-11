@@ -4,9 +4,9 @@ MyReads App is a book tracking application, made with reactjs and react-router d
 
 #### Installation Guide
 
-1- clode or forke the repo
-2- npm install ==> to download all the  dependences necessary
-3- npm run dev ==> to start your development server
+1- clode or forke the repo<br />
+2- npm install ==> to download all the  dependences necessary<br />
+3- npm run dev ==> to start your development server<br />
 
 NOTE** this ReactJS app developed with vite development environment.
 
