@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 
 //TODO: Import Search From API Helper
-import { getAllSearch } from "./../utilites/helpersAPI";
+import { getAllSearch } from "../utilites/helpersAPI";
 
 // TODO: All And The Component Import Here And CSS Files
 import SearchInput from "../components/SearchInput";

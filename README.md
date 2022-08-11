@@ -1,5 +1,14 @@
-### Welcome To The Udacity Challenge Called MyReads 
+#### Welcome To The Udacity Challenge Called MyReads 
 This template made with Reactjs 
+
+
+### Installation Guide
+
+1- clode or forke the repo
+2- npm install ==> to download all the  dependences necessary
+3- npm run dev ==> to start your development server
+
+NOTE** this ReactJS app developed with vite development environment.
 
 
 ## Some Photos Tell You How The app architecture Was made and the App Structure
@@ -23,4 +32,6 @@ No Store Solution For This Project All Work Has Done With Props and Update Event
 #### Resources_STYLEING
 
 you will find all the styling resouses imported 
+
+
 

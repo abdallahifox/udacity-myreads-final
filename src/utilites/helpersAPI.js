@@ -16,8 +16,8 @@ export const  getAllBooks = async () => { //TODO: Get all my cart books
       booksData.push({
         title: book.title,
         id: book.id,
-        author: book.authors,
-        url: book.imageLinks.thumbnail,
+        author: book.authors, 
+        url: book.imageLinks,
         status: book.shelf,
       });
     });
@@ -45,16 +45,17 @@ export const  getAllBooks = async () => { //TODO: Get all my cart books
        data.map(book => { //TODO: looping through all the searching query
         let idBook = book.id
         const status = all.find(x => x.id === idBook) //TODO: find the book id in the query search
-
         if(status){ //TODO: check if the book is already exsist in my cart to mutate the shelf key with the status value
           
           book.status = status.status
-        }    
+        }    else{
+          book.status = "None"
+        }
         booksData.push({  //TODO: Pushing the new mutated array to the UI
           title: book.title,
           id: book.id,
           author: book.authors,
-          url: book.imageLinks.thumbnail,
+          url: book.imageLinks,
           status: book.status,
         })
        })

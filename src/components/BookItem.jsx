@@ -15,7 +15,15 @@ function BookItem({ bookInfo, onUpdatedStatus }) {
   return (
     <div className="book">
       <div className="book-top">
-        <img className="book-cover" src={bookInfo.url} alt={bookInfo.title} />
+        {bookInfo.url ? (
+          <img
+            className="book-cover"
+            src={bookInfo.url.thumbnail}
+            alt={bookInfo.title}
+          />
+        ) : (
+          <p style={{ marginBottom: "40px" }}> No Image, Found</p>
+        )}
         <button className="book-shelf-changer">
           <select onChange={statusUpdate}>
             {status.map((item, index) => {
@@ -31,7 +39,7 @@ function BookItem({ bookInfo, onUpdatedStatus }) {
       </div>
       <div className="book-cover-title">
         <h2 className="book-title">{bookInfo.title}</h2>
-        <p className="book-authors">{bookInfo.author[0] || bookInfo.author}</p>
+        <p className="book-authors">{bookInfo.author || ""}</p>
       </div>
     </div>
   );
