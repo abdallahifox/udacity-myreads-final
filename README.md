@@ -1,8 +1,8 @@
 #### Welcome To The Udacity Challenge Called MyReads 
-This template made with Reactjs 
+This App made with Reactjs 
 
 
-### Installation Guide
+#### Installation Guide
 
 1- clode or forke the repo
 2- npm install ==> to download all the  dependences necessary
@@ -11,7 +11,7 @@ This template made with Reactjs
 NOTE** this ReactJS app developed with vite development environment.
 
 
-## Some Photos Tell You How The app architecture Was made and the App Structure
+#### Some Photos Tell You How The app architecture Was made and the App Structure
 
 ![MyReads](https://i.ibb.co/NW2tPkz/MyReads.png)
 ![Main Route Architecture](https://i.ibb.co/5448L90/Main-Route-Architecture.png)
@@ -25,7 +25,7 @@ React Router DOOM
 #### Helpers
 you will find comment in files to understund what's going on !! 
 
-### Resources_STORE
+#### Resources_STORE
 
 No Store Solution For This Project All Work Has Done With Props and Update Events 
 
