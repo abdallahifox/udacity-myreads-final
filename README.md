@@ -1,10 +1,10 @@
-#### Welcome To The Udacity Challenge Called MyReads 
+### Welcome To The Udacity Challenge Called MyReads 
 MyReads App is a book tracking application, made with reactjs and react-router dom for udacity final project, it lets you track your books and add books to your track.
 
 
 #### Installation Guide
 
-1- clode or forke the repo<br />
+1- clone or fork the repo<br />
 2- npm install ==> to download all the  dependences necessary<br />
 3- npm run dev ==> to start your development server<br />
 
