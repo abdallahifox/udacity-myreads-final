@@ -22,7 +22,7 @@ function BookItem({ bookInfo, onUpdatedStatus }) {
             alt={bookInfo.title}
           />
         ) : (
-          <p style={{ marginBottom: "40px" }}> No Image, Found</p>
+          <p style={{ marginBottom: "40px" }}> No Image Found</p>
         )}
         <button className="book-shelf-changer">
           <select onChange={statusUpdate}>
